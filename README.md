@@ -1,5 +1,5 @@
 ## Reliable-UDP-Protocol
-This project creates a reliable communication with the [httpc](https://github.com/DhwaniSondhi/HTTP-Client-Implementation) client and [httpfs](https://github.com/DhwaniSondhi/File-Server-Application) server using UDP protocol. It is uses [Selective-Repeat ARQ technique](https://en.wikipedia.org/wiki/Selective_Repeat_ARQ) on the top of unreliable UDP for making it work as a reliable TCP protocol.
+This project creates a reliable communication with the [httpc](https://github.com/DhwaniSondhi/HTTP-Client-Implementation) client and [httpfs](https://github.com/DhwaniSondhi/File-Server-Application) server using UDP protocol. It is uses [Selective-Repeat ARQ technique](https://en.wikipedia.org/wiki/Selective_Repeat_ARQ) on the top of unreliable UDP for making it work as a reliable TCP protocol. It is tested with changes in values of both drop rate and delay.
 
 ### Description
 ***Router***:
