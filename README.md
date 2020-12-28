@@ -1,9 +1,9 @@
 ## Reliable-UDP-Protocol
-This project creates a reliable communication with the [httpc](https://github.com/DhwaniSondhi/HTTP-Client-Implementation) client and [httpfs](https://github.com/DhwaniSondhi/File-Server-Application) server using UDP protocol. It is uses [Selective-Repeat ARQ technique](https://en.wikipedia.org/wiki/Selective_Repeat_ARQ) on the top of unreliable UDP for making it work as a reliable TCP protocol. It is tested with changes in values of both drop rate and delay.
+This project creates a reliable communication with the [httpc](https://github.com/DhwaniSondhi/HTTP-Client-Implementation) client and [httpfs](https://github.com/DhwaniSondhi/File-Server-Application) server using UDP protocol. It uses [Selective-Repeat ARQ technique](https://en.wikipedia.org/wiki/Selective_Repeat_ARQ) on top of unreliable UDP for making it work as a reliable TCP protocol. It is tested with changes in values of both drop rate and delay.
 
 ### Description
 ***Router***:
-Instead of sending/receiving network packets directly between a client and a server, both of them have to send and receive packets via the router. The purpose of this infrastructure is to simulate and control the unreliable characteristic of UDP protocol. In the figure, both application A and B send and receive packets to/from the router.
+Instead of sending/receiving network packets directly between a client and a server, both of them have to send and receive packets via the router. The purpose of this infrastructure is to simulate and control the unreliable characteristic of the UDP protocol. In the figure, both applications A and B send and receive packets to/from the router.
 
 <img src="https://github.com/DhwaniSondhi/Reliable-UDP-Protocol/blob/master/images/1.PNG" width="600" height="300"/><br/>
 <br/>***Message Structure***:
